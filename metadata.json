@@ -1,0 +1,6 @@
+{
+  "name": "Dum Dum Eyewear UI Manifest",
+  "description": "Six distinct landing page UI designs for a local Dum Dum, Kolkata eyeglass shop featuring Minimalist, Glassmorphism, Bento Grids, Editorial, Hand-Drawn, and Neobrutalism aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

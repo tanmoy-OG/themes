@@ -1,0 +1,210 @@
+{
+  "project_metadata": {
+    "project_name": "Dum Dum Eyewear UI Manifest",
+    "location": "Dum Dum, Kolkata, West Bengal",
+    "stack_preference": "React, TypeScript, Tailwind CSS, shadcn/ui",
+    "description": "JSON specification for Google AI Studio generating 6 distinct landing page UI designs utilizing real photography."
+  },
+  "homepage": {
+    "route": "/",
+    "design_philosophy": "Utilitarian plain text list, zero styling beyond default HTML anchor tags.",
+    "layout": "Unordered list (<ul>) with standard blue hyperlinks.",
+    "links": [
+      { "label": "Minimalist and Flat Design", "path": "/one" },
+      { "label": "Glassmorphism", "path": "/two" },
+      { "label": "Bento Grids", "path": "/three" },
+      { "label": "Editorial", "path": "/four" },
+      { "label": "Hand-Drawn Styles", "path": "/five" },
+      { "label": "Neobrutalism", "path": "/six" }
+    ]
+  },
+  "landing_pages": [
+    {
+      "route": "/one",
+      "theme_name": "Minimalist and Flat Design",
+      "design_philosophy": "Strict grid, vast whitespace, and no drop shadows or gradients. Focuses purely on high-resolution product photography and essential typography, echoing Titan Eyeplus's clean clinical trust.",
+      "color_palette": {
+        "background": "#FFFFFF",
+        "text_primary": "#000000",
+        "text_secondary": "#757575",
+        "accent": "#0F0F0F"
+      },
+      "typography": {
+        "headings": "Inter (Semi-Bold)",
+        "body": "Inter (Regular)"
+      },
+      "hero_section": {
+        "headline": "Vision, simplified.",
+        "subheadline": "Precision lenses cut at our Dum Dum laboratory.",
+        "real_image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Clear eyeglasses resting on a clean white surface",
+        "cta": "Shop Frames"
+      },
+      "ui_components": [
+        {
+          "type": "ProductGrid",
+          "layout": "2-column flat grid, 1px solid #E0E0E0 borders.",
+          "feature_reference": "Specsmakers simple frame categorization"
+        }
+      ]
+    },
+    {
+      "route": "/two",
+      "theme_name": "Glassmorphism",
+      "design_philosophy": "Translucent layers with background blur, floating elements, and vivid mesh gradients underneath. Represents advanced tech lenses like Nova Eyewear's blue-cut and photochromic ranges.",
+      "color_palette": {
+        "background": "Mesh gradient (Deep Blue #0F172A, Purple #4C1D95, Teal #0F766E)",
+        "card_background": "rgba(255, 255, 255, 0.1)",
+        "card_border": "rgba(255, 255, 255, 0.2)",
+        "text": "#FFFFFF"
+      },
+      "typography": {
+        "headings": "Outfit (Bold)",
+        "body": "Outfit (Light)"
+      },
+      "hero_section": {
+        "headline": "The Future of Clarity",
+        "subheadline": "Smart lenses for the digital age, available right here in Kolkata.",
+        "real_video_placeholder": "https://cdn.pixabay.com/video/2021/08/04/83911-584795325_large.mp4",
+        "video_alt": "Cinematic pan over modern transparent eyeglasses",
+        "cta": "Virtual Try-On (shadcn/ui dialog)",
+        "cta_style": "Frosted glass button with backdrop-blur-md"
+      },
+      "ui_components": [
+        {
+          "type": "LensTechSelector",
+          "layout": "Floating glass panels showcasing Anti-Glare and Blue-Light tech",
+          "feature_reference": "Lenskart 3D Try-On tech aesthetic"
+        }
+      ]
+    },
+    {
+      "route": "/three",
+      "theme_name": "Bento Grids",
+      "design_philosophy": "Modular, asymmetrical rounded cards tightly packed in a grid. Perfect for displaying dense information visually, such as frame specs, Dum Dum clinic hours, and Vision Express-style fast delivery metrics.",
+      "color_palette": {
+        "background": "#F1F5F9",
+        "grid_item_bg": "#FFFFFF",
+        "text_primary": "#0F172A",
+        "accent": "#2563EB"
+      },
+      "typography": {
+        "headings": "SF Pro Display (Bold)",
+        "body": "SF Pro Text (Regular)"
+      },
+      "hero_section": {
+        "layout": "Top-heavy bento grid",
+        "main_cell_headline": "Crafted for Kolkata",
+        "main_cell_image": "https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Person wearing stylish tortoise shell glasses outdoors",
+        "cta": "Book Eye Test"
+      },
+      "ui_components": [
+        {
+          "type": "BentoDashboard",
+          "cells": [
+            "1x2 Image card of premium acetate frames",
+            "1x1 Booking card for Dum Dum clinic (Titan Eyeplus 20-step test reference)",
+            "2x1 Horizontal card detailing 1-year warranty",
+            "1x1 Card showing real-time store walk-in availability"
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/four",
+      "theme_name": "Editorial",
+      "design_philosophy": "Magazine-like layout mimicking high-end fashion publications. Large elegant serif fonts, asymmetrical image placements, and overlapping text to elevate the eyewear to luxury status.",
+      "color_palette": {
+        "background": "#FAF9F6",
+        "text_primary": "#2C2C2C",
+        "accent": "#8C7355",
+        "lines": "#D3D3D3"
+      },
+      "typography": {
+        "headings": "Playfair Display (Italic & Bold)",
+        "body": "Lora (Regular)"
+      },
+      "hero_section": {
+        "headline": "The Autumn Acetate Collection",
+        "subheadline": "Vol. 1 — Redefining elegance in North Kolkata.",
+        "real_image_url": "https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Fashion editorial shot of woman wearing oversized optical frames",
+        "cta": "Read the Lookbook"
+      },
+      "ui_components": [
+        {
+          "type": "EditorialSpread",
+          "layout": "Alternating text and large image blocks, utilizing drop caps and pull quotes.",
+          "feature_reference": "Titan Eyeplus premium Fastrack/Titan frame showcases"
+        }
+      ]
+    },
+    {
+      "route": "/five",
+      "theme_name": "Hand-Drawn Styles",
+      "design_philosophy": "Organic, approachable, and artisanal. Features slightly crooked lines, hand-drawn vector arrows, paper textures, and handwritten fonts. Emphasizes independent, local craftsmanship in Dum Dum.",
+      "color_palette": {
+        "background": "#FDFBF7",
+        "text_primary": "#2D3748",
+        "accent_highlight": "rgba(255, 215, 0, 0.4)",
+        "sketch_lines": "#4A5568"
+      },
+      "typography": {
+        "headings": "Caveat (Bold)",
+        "body": "Patrick Hand (Regular)"
+      },
+      "hero_section": {
+        "headline": "Hand-picked frames just for you!",
+        "subheadline": "Swing by our Jessore Road store for a coffee and a free eye test.",
+        "real_image_url": "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Close up of wireframe glasses on an open book",
+        "image_treatment": "Masked with a ragged, torn-paper CSS edge",
+        "cta": "See our collection",
+        "cta_style": "Button looks like a piece of masking tape with sharpie text"
+      },
+      "ui_components": [
+        {
+          "type": "CraftsmanshipProcess",
+          "layout": "Vertical timeline connected by a hand-drawn squiggly line",
+          "content": "Real photos of eye testing and lens fitting, annotated with hand-drawn circular highlights and arrows."
+        }
+      ]
+    },
+    {
+      "route": "/six",
+      "theme_name": "Neobrutalism",
+      "design_philosophy": "Loud, high contrast, and unapologetic. Harsh solid black shadows, bright clashing pastel/neon colors, thick borders, and marquee tickers. Targets Gen-Z and student demographics.",
+      "color_palette": {
+        "background": "#FFF176",
+        "card_bg": "#FFFFFF",
+        "borders": "#000000",
+        "accent": "#FF4081"
+      },
+      "typography": {
+        "headings": "Space Grotesk (Black)",
+        "body": "IBM Plex Mono (Regular)"
+      },
+      "hero_section": {
+        "headline": "NOT YOUR DAD'S GLASSES.",
+        "subheadline": "Durable. Stylish. Built for the streets of Kolkata.",
+        "real_image_url": "https://images.unsplash.com/photo-1589718539308-16982e057375?auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Person in streetwear wearing thick black optical frames",
+        "image_treatment": "Thick 4px solid black border with a 8px solid offset shadow (#000000)",
+        "cta": "GRAB A PAIR",
+        "cta_style": "Boxy button, solid black border, harsh hover state shift"
+      },
+      "ui_components": [
+        {
+          "type": "MarqueeTicker",
+          "text": "FREE EYE EXAM • DUM DUM STATION • 1 YR WARRANTY • ZERO SCRATCH •",
+          "feature_reference": "Lenskart Gold Membership/BOGO aggressive promotional style translated to Gen-Z UI"
+        },
+        {
+          "type": "ChunkyProductCards",
+          "layout": "Grid of massive product images with fixed widths, brutalist tooltips showing exact lens widths and bridge sizes."
+        }
+      ]
+    }
+  ]
+}
